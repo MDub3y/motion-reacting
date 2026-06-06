@@ -40,7 +40,7 @@ function AnimatedDashedBox({
     >
         <motion.svg
             width={boxWidth}
-            height={boxHeight}
+            height={boxHeight + 2}
             viewBox={`0 0 ${boxWidth} ${boxHeight + 2}`}
             fill='none'
             className={cn('overflow-visible')}
